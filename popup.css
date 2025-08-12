@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 350px;
+    padding: 10px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0366d6;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.token-info {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+#checkButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#checkButton:hover {
+    background-color: #218838;
+}
+
+#clearButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#clearButton:hover {
+    background-color: #c82333;
+}
+
+.status {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.results h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #0366d6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.user-list li a {
+    font-weight: bold;
+}
+
+.user-list li:last-child {
+    border-bottom: none;
+}

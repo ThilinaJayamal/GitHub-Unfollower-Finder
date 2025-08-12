@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Unfollower Finder",
+  "version": "1.0",
+  "description": "Finds GitHub users you follow who aren't following you back.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
